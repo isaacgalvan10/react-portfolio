@@ -1,0 +1,35 @@
+.card {
+  background-color: grey;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.card__img__container {
+  max-width: 40%;
+}
+
+.card__img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.card__content__container {
+  margin-left: 40px;
+}
+
+.card__content__container p {
+  max-width: 600px;
+}
+
+.card__btn {
+  background-color: red;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin-right: 15px;
+  font-size: 16px;
+}
+/*# sourceMappingURL=Projects.css.map */

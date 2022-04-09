@@ -1,0 +1,33 @@
+nav {
+  background-color: red;
+  padding: 10px 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav__list {
+  display: inline;
+  list-style: none;
+}
+
+.nav__item {
+  display: inline;
+  padding-right: 15px;
+  text-decoration: none;
+}
+
+.nav__item a {
+  text-decoration: none;
+}
+
+.nav__item--active {
+  font-weight: bold;
+}
+/*# sourceMappingURL=Header.css.map */
