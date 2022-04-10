@@ -20,8 +20,15 @@ const Navigation = () => {
 
   const handlePageChange = (page) => setCurrentPage(page);
 
+  const style = {
+    display: 'flex',
+    minHeight: '100vh',
+    flexDirection: 'column',
+    justifyContent: 'flex-start',
+  };
+
   return (
-    <div>
+    <div style={style}>
       <Header currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}
       <Footer />

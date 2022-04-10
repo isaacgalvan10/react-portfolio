@@ -1,6 +1,8 @@
-nav {
+.nav__bg {
   background-color: red;
-  padding: 10px 40px;
+}
+
+nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
