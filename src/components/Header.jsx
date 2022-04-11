@@ -3,7 +3,11 @@ const Header = ({ currentPage, handlePageChange }) => {
   return (
     <div className="wrapper nav__bg">
       <nav className="container">
-        <a className="nav__item" href="#about">
+        <a
+          className="nav__item logo"
+          href="#about"
+          onClick={() => handlePageChange('About')}
+        >
           Isaac Galvan
         </a>
         <ul className="nav__list">

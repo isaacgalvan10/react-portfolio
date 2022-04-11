@@ -5,9 +5,25 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #99acff;
+  background-image: radial-gradient(
+      at 29% 99%,
+      hsla(6, 80%, 64%, 1) 0px,
+      transparent 50%
+    ),
+    radial-gradient(at 98% 79%, hsla(229, 61%, 74%, 1) 0px, transparent 50%),
+    radial-gradient(at 30% 66%, hsla(281, 77%, 79%, 1) 0px, transparent 50%),
+    radial-gradient(at 98% 40%, hsla(6, 80%, 64%, 1) 0px, transparent 50%),
+    radial-gradient(at 14% 44%, hsla(247, 85%, 61%, 1) 0px, transparent 50%),
+    radial-gradient(at 60% 19%, hsla(226, 69%, 67%, 1) 0px, transparent 50%),
+    radial-gradient(at 43% 51%, hsla(264, 62%, 65%, 1) 0px, transparent 50%);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+p {
+  font-size: 18px;
 }

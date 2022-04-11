@@ -8,6 +8,7 @@ const Contact = () => {
           method="POST"
           encType="text/plain"
           name="ContactFrom"
+          className="card"
         >
           <label htmlFor="name">Name:</label>
           <br />

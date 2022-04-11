@@ -1,28 +1,41 @@
-.nav__bg {
-  background-color: red;
-}
-
 nav {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  // justify-content: space-between;
+  // align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .nav__list {
   display: inline;
   list-style: none;
+  color: white;
 }
 
 .nav__item {
   display: inline;
   padding-right: 15px;
   text-decoration: none;
+  color: white;
 
   a {
     text-decoration: none;
+    color: white;
   }
 }
 
 .nav__item--active {
   font-weight: bold;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+@media screen and (min-width: 496px) {
+  nav {
+    justify-content: space-between;
+    align-items: center;
+  }
 }

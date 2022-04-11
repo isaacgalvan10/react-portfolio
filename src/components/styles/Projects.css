@@ -1,14 +1,22 @@
 .card {
-  background-color: grey;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   padding: 20px;
-  border-radius: 10px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  backdrop-filter: blur(20px) saturate(200%);
+  -webkit-backdrop-filter: blur(20px) saturate(200%);
+  background-color: rgba(201, 225, 228, 0.6);
+  border-radius: 12px;
+  border: 1px solid rgba(209, 213, 219, 0.3);
 }
 
 .card__img__container {
-  max-width: 40%;
+  max-width: 600px;
+  margin: 0 auto;
 }
 
 .card__img {
@@ -16,20 +24,33 @@
   border-radius: 10px;
 }
 
-.card__content__container {
-  margin-left: 40px;
-}
-
-.card__content__container p {
-  max-width: 600px;
-}
-
 .card__btn {
-  background-color: red;
+  background-color: #99acff;
   border: none;
   border-radius: 10px;
   padding: 10px 20px;
   margin-right: 15px;
   font-size: 16px;
+  cursor: pointer;
+}
+
+.card__btn:hover {
+  background-color: HSLA(281, 77%, 79%, 1);
+}
+
+@media screen and (min-width: 760px) {
+  .card {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .card__img__container {
+    max-width: 45%;
+    margin: 0;
+  }
+  .card__content__container {
+    margin-left: 40px;
+  }
 }
 /*# sourceMappingURL=Projects.css.map */
