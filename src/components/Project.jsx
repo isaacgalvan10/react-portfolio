@@ -1,25 +1,22 @@
-const Project = () => {
+const Project = (props) => {
   return (
     <div className="card">
       <div className="card__img__container">
-        <img
-          src={require('./assets/whistle-project.png')}
-          alt="Whistle project"
-          className="card__img"
-        />
+        <a href={props.liveLink} target={'_blank'} rel="noreferrer">
+          <img src={props.imgSrc} alt={props.title} className="card__img" />
+        </a>
       </div>
       <div className="card__content__container">
-        <h2 className="card__title">Whistle Task Manager</h2>
+        <h2 className="card__title">{props.title}</h2>
         <div className="card__btn__container">
-          <button className="card__btn">Live</button>
-          <button className="card__btn">Github</button>
+          <a href={props.liveLink} target={'_blank'} rel="noreferrer">
+            <button className="card__btn">Live</button>
+          </a>
+          <a href={props.githubLink} target={'_blank'} rel="noreferrer">
+            <button className="card__btn">Github</button>
+          </a>
         </div>
-        <p>
-          This is a project management system. It allows you to create new
-          users, login/logout, create/delete projects and tasks within the
-          projects. Technologies used: SASS, Node.js, Express.js, Heroku, and
-          GSAP (for animations)
-        </p>
+        <p>{props.description}</p>
       </div>
     </div>
   );
