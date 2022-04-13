@@ -1,0 +1,24 @@
+.form-container {
+  max-width: 500px;
+  width: 500px;
+  display: flex;
+  justify-content: center;
+}
+
+input {
+  width: 460px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 5px solid white;
+}
+
+#message {
+  width: 460px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border: 5px solid white;
+}
+
+.form-container .card__btn {
+  width: 100%;
+}
