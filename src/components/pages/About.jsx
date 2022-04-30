@@ -91,12 +91,16 @@ const About = () => {
           </div>
 
           <div>
-            <p>Email:</p>
-            <a href="mailto:galvan1522@gmail.com">galvan1522@gmail.com</a>
+            <p>
+              Email:<br></br>
+              <a href="mailto:galvan1522@gmail.com">galvan1522@gmail.com</a>
+            </p>
           </div>
           <div>
-            <p>Number:</p>
-            <a href="tel:+14093137845">+1(409) 313-7845</a>
+            <p>
+              Number:<br></br>
+              <a href="tel:+14093137845">+1(409) 313-7845</a>
+            </p>
           </div>
         </div>
       </div>
