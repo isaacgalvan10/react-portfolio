@@ -89,6 +89,15 @@ const About = () => {
             </a>
             <p>Linkedin</p>
           </div>
+
+          <div>
+            <p>Email:</p>
+            <a href="mailto:galvan1522@gmail.com">galvan1522@gmail.com</a>
+          </div>
+          <div>
+            <p>Number:</p>
+            <a href="tel:+14093137845">+1(409) 313-7845</a>
+          </div>
         </div>
       </div>
     </div>
