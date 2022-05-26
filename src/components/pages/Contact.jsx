@@ -5,7 +5,28 @@ const Contact = () => {
     <div className="container">
       <h1>Contact</h1>
       <div className="form-container card2">
-        <form
+        <div>
+          <p>
+            Email:{' '}
+            <a
+              href="mailto:galvan1522@gmail.com"
+              target={'_blank'}
+              rel="noreferrer"
+            >
+              galvan1522@gmail.com
+            </a>
+          </p>
+        </div>
+        <div>
+          <p>
+            Number:{' '}
+            <a href="tel:+14093137845" target={'_blank'} rel="noreferrer">
+              +1(409)-313-7845
+            </a>
+          </p>
+        </div>
+
+        {/* <form
           action="mailto:galvan1522@gmail.com"
           method="POST"
           encType="text/plain"
@@ -24,7 +45,7 @@ const Contact = () => {
           <textarea name="message" id="message" rows="5" />
           <br />
           <input type="submit" value="Submit" className="card__btn" />
-        </form>
+        </form> */}
       </div>
     </div>
   );
