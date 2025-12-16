@@ -20,8 +20,8 @@ const Contact = () => {
         <div>
           <p>
             Number:{' '}
-            <a href="tel:+14093137845" target={'_blank'} rel="noreferrer">
-              +1(409)-313-7845
+            <a href="tel:+13373130870" target={'_blank'} rel="noreferrer">
+              +1(337)-313-0870
             </a>
           </p>
         </div>

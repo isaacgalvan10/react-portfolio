@@ -12,9 +12,11 @@ const Project = (props) => {
           <a href={props.liveLink} target={'_blank'} rel="noreferrer">
             <button className="card__btn">Live</button>
           </a>
-          <a href={props.githubLink} target={'_blank'} rel="noreferrer">
-            <button className="card__btn">Github</button>
-          </a>
+          {props.githubLink && (
+            <a href={props.githubLink} target={'_blank'} rel="noreferrer">
+              <button className="card__btn">Github</button>
+            </a>
+          )}
         </div>
         <p>{props.description}</p>
       </div>

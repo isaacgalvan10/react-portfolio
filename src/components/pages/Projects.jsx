@@ -4,11 +4,25 @@ import whistleImg from '../assets/whistle-project.png';
 import easybankImg from '../assets/Easybank-project.png';
 import saleswhaleImg from '../assets/react-saleswhale.png';
 import nxtmovieImg from '../assets/nxt-movie-project.png';
+import microsoftnewsImg from '../assets/news-microsoft.png';
+import xboxnewsImg from '../assets/news-xbox.png';
 
 const Projects = () => {
   return (
     <div className="container">
       <h1>Projects</h1>
+        <Project
+        imgSrc={microsoftnewsImg}
+        title="Microsoft News blog rebuild"
+        liveLink="https://news.microsoft.com/source/"
+        description="This was a complete rebuild of the Microsoft News Source blog website. I was in charge of the front-end development using vanilla Javascript, SASS, HTML and PHP to build the custom template for WordPress CMS. Worked closely with the UX/UI designer to ensure the website matched the design mockups and provided a seamless user experience."
+      />
+      <Project
+        imgSrc={xboxnewsImg}
+        title="Xbox News blog rebuild"
+        liveLink="https://news.microsoft.com/source/"
+        description="This was a complete rebuild of the Xbox News Wire blog website. I was in charge of the front-end development using vanilla Javascript, SASS, HTML and PHP to build the custom template for WordPress CMS. Worked closely with the UX/UI designer to ensure the website matched the design mockups and provided a seamless user experience."
+      />
       <Project
         imgSrc={whistleImg}
         title="Whistle Task Manager"
