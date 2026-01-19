@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.282b9802.css",
+    "main.css": "/react-portfolio/static/css/main.6563f4c6.css",
     "main.js": "/react-portfolio/static/js/main.bbfa8797.js",
     "static/js/453.f3e54077.chunk.js": "/react-portfolio/static/js/453.f3e54077.chunk.js",
     "static/media/news-microsoft.png": "/react-portfolio/static/media/news-microsoft.df34245badbeede83739.png",
@@ -10,12 +10,12 @@
     "static/media/nxt-movie-project.png": "/react-portfolio/static/media/nxt-movie-project.386578de8ac9d1789b8a.png",
     "static/media/whistle-project.png": "/react-portfolio/static/media/whistle-project.1f5200d2083a12ab86ab.png",
     "index.html": "/react-portfolio/index.html",
-    "main.282b9802.css.map": "/react-portfolio/static/css/main.282b9802.css.map",
+    "main.6563f4c6.css.map": "/react-portfolio/static/css/main.6563f4c6.css.map",
     "main.bbfa8797.js.map": "/react-portfolio/static/js/main.bbfa8797.js.map",
     "453.f3e54077.chunk.js.map": "/react-portfolio/static/js/453.f3e54077.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.282b9802.css",
+    "static/css/main.6563f4c6.css",
     "static/js/main.bbfa8797.js"
   ]
 }
