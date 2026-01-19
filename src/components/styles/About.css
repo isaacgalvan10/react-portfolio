@@ -13,8 +13,8 @@
 
 .social__container {
   display: flex;
-  -moz-column-gap: 25px;
-       column-gap: 25px;
+  gap: 10px 30px;
+  flex-wrap: wrap;
 }
 .social__container i {
   margin: 0 auto;

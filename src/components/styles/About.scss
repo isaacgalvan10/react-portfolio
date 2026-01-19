@@ -16,7 +16,8 @@
 
 .social__container {
   display: flex;
-  column-gap: 30px;
+  gap: 10px 30px;
+  flex-wrap: wrap;
 
   i {
     margin: 0 auto;

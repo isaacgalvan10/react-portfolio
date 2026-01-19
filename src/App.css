@@ -17,7 +17,7 @@ footer {
   color: white;
 }
 
-@media screen and (min-width: 774px) {
+@media screen and (min-width: 901px) {
   .container {
     padding: 10px 40px;
   }
